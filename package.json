@@ -1,0 +1,31 @@
+{
+  "name": "js-rest-api-lec",
+  "version": "0.1.0",
+  "description": "JS REST API sample programs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "first-app": "node_modules/nodemon/bin/nodemon.js ./scripts/server",
+    "path-params": "node_modules/nodemon/bin/nodemon.js ./scripts/path-params",
+    "req-body": "node_modules/nodemon/bin/nodemon.js ./scripts/req-body",
+    "resp": "node_modules/nodemon/bin/nodemon.js ./scripts/resp",
+    "router-ex": "node_modules/nodemon/bin/nodemon.js ./scripts/router-ex",
+    "mid-ware": "node_modules/nodemon/bin/nodemon.js ./scripts/logger"
+  },
+  "author": "leifl@kth.se",
+  "license": "BSC 3-clause",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
