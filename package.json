@@ -9,6 +9,7 @@
     "req-body": "node_modules/nodemon/bin/nodemon.js ./scripts/req-body",
     "resp": "node_modules/nodemon/bin/nodemon.js ./scripts/resp",
     "router-ex": "node_modules/nodemon/bin/nodemon.js ./scripts/router-ex",
+    "cookies": "node_modules/nodemon/bin/nodemon.js ./scripts/cookies",
     "mid-ware": "node_modules/nodemon/bin/nodemon.js ./scripts/logger"
   },
   "author": "leifl@kth.se",
@@ -16,6 +17,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
+    "cookie-parser": "^1.4.4",
     "body-parser": "^1.19.0"
   },
   "devDependencies": {
